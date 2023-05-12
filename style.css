@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    background-color: azure;
+}
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 1em;
+    flex-wrap: wrap;
+
+}
+.retangulo{
+    height: 100px;
+    width: 200px;
+    display: grid;
+    place-items: center;
+
+}
+#ret1{
+    background-color: red;
+
+}
+#ret2{
+    background-color: green;
+
+}
+#ret3{
+    background-color: blue;
+
+}
+#ret4{
+    background-color: yellow;
+
+}
+#ret5{
+    background-color: pink;
+
+}
+
+
